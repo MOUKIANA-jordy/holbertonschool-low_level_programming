@@ -1,5 +1,4 @@
-#!/bin/bash
-gcc /*
+/*
  * File: 6-size.c
  * Auth: Brennan D Baraban
  */
