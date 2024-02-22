@@ -1,7 +1,6 @@
 #include<stdio.h>
-/**
-*main - Entry door
-*Return: equal (0) success
+/*
+main - Entry door
 */
 int main(void)
 {
