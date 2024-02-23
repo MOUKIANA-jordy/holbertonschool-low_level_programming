@@ -4,7 +4,7 @@
 
 /**
 *main -printf if number is positive, zero or negative
-*Return= always succes (0)
+*Return: always succes (0)
 */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	else if (n < 0)
 	{
 
-		printf("%d is negative \n", n);
+		printf("%d is negative\n", n);
 
 	}
 	else if (n == 0)
