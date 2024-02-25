@@ -3,9 +3,7 @@
 *main - display each character
 *Return: ok valide 0
 */
-
 int main(void)
-
 {
 
 	_putchar('_');
