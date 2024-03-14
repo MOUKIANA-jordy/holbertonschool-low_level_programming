@@ -7,14 +7,15 @@
  * Return : pointer to the new string
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *a;
 	int i, j;
-
+	
 		if (str == NULL)
-		return (NULL);
-
+		{
+			return (NULL);
+		}
 		for (i = '0'; str != '\0'; i++)
 		{
 			a = malloc(i * sizeof(*a) + 1);
@@ -22,7 +23,7 @@ char *_strdup(char *str);
 			{
 				return (NULL);
 			}
-			for (j = '0'; j < size; j++)
+			for (j = '0'; j < size ; j++)
 			{
 				a[j] = str[j];
 
